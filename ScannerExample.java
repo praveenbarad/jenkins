@@ -5,9 +5,7 @@ public class ScannerExample {
       StringBuffer sb = new StringBuffer();
       System.out.println("Enter your name: ");
       String name = sc.next();
-      System.out.println("Enter your age: ");
-      String age = sc.next();
-      System.out.println("Hello "+name+" You are "+age+" years old");
+      System.out.println("Hello "+name+");
    }
    public static void main(String args[]) throws IOException {
       //Instantiating the Scanner class
